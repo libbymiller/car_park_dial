@@ -42,6 +42,6 @@ I used physical pieces and code from
 # Pictures
 
 <img src="img/IMG_2376.JPG" width="300px" />
-<img src="img/IMG_2376.JPG" width="300px" />
+<img src="img/IMG_2377.JPG" width="300px" />
 
 
