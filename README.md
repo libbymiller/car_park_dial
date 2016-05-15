@@ -31,7 +31,11 @@ on a Pi 3.
 # Wiring
 
 When you wire up the Arduino to the motor drivers, the middle two wires 
-need to be swapped, or it won't go backward.
+need to be swapped, or it won't go backwards.
+
+I used physical pieces and code from 
+[Shonkbot](https://github.com/jarkman/shonkbot) 
+
 
 # Pictures
 
