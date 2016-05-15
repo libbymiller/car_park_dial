@@ -12,6 +12,8 @@ The Bristol Open Data API is here
 It's designed to be an appliance, based on a Raspberry Pi, with an 
 Arduino and two stepper motors.
 
+Likely the callibration isn't right yet.
+
 # Installation
 
 ## Set up your pi including the wifi
