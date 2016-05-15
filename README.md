@@ -33,6 +33,8 @@ on a Pi 3.
 When you wire up the Arduino to the motor drivers, the middle two wires 
 need to be swapped, or it won't go backwards.
 
+# Thanks
+
 I used physical pieces and code from 
 [Shonkbot](https://github.com/jarkman/shonkbot) and the wifi "appliance mode" from [Radiodan](http://radiodan.net).
 
