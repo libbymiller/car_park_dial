@@ -18,11 +18,14 @@ serialPort.on("open", function () {
 
 var child;
 
-//var cmd = "curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-Api-Key: xxxxxx' -d'[\"UK_BRIS_CP:BRIS-C00001\",\"UK_BRIS_CP:BRIS-C91221\",\"UK_BRIS_CP:BRIS-C00011\",\"UK_BRIS_CP:BRIS-C00012\"]' 'https://bristol.api.urbanthings.io/api/2.0/rti/resources/status'";
+// Get key from https://portal-bristol.api.urbanthings.io/
+// This part of the api is rate limited to 1400 requests a day, slightly less than one a minute.
+// Using curl because I'm lazy...
 
-//just two since I can only display two on one arduino
-//get key from https://portal-bristol.api.urbanthings.io/
 var cmd = "curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-Api-Key: xxxxxx' -d '[\"UK_BRIS_CP:BRIS-C91221\",\"UK_BRIS_CP:BRIS-C00011\"]' 'https://bristol.api.urbanthings.io/api/2.0/rti/resources/status'";
+
+// Just two since I can only display two on one arduino - the total for Bristol is 4 - https://opendata.bristol.gov.uk/Mobility/Car-Park-Occupancy/a427-ptgs
+// var cmd = "curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'X-Api-Key: xxxxxx' -d'[\"UK_BRIS_CP:BRIS-C00001\",\"UK_BRIS_CP:BRIS-C91221\",\"UK_BRIS_CP:BRIS-C00011\",\"UK_BRIS_CP:BRIS-C00012\"]' 'https://bristol.api.urbanthings.io/api/2.0/rti/resources/status'";
 
 var minutes = 1, the_interval = minutes * 60 * 1000;
 setInterval(function() {
