@@ -35,7 +35,7 @@ need to be swapped, or it won't go backward.
 
 # Pictures
 
-<imr src="img/IMG_2376.JPG" width="300px" />
-<imr src="img/IMG_2376.JPG" width="300px" />
+<img src="img/IMG_2376.JPG" width="300px" />
+<img src="img/IMG_2376.JPG" width="300px" />
 
 
