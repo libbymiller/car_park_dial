@@ -36,7 +36,7 @@ need to be swapped, or it won't go backwards.
 # Thanks
 
 I used physical pieces and code from 
-[Shonkbot](https://github.com/jarkman/shonkbot) and the wifi "appliance mode" from [Radiodan](http://radiodan.net).
+[Shonkbot](https://github.com/jarkman/shonkbot) and the wifi "appliance mode" from [Radiodan](http://radiodan.net). Richard Pope's [bicycle barometer](http://www.cyclelove.net/2012/12/bicycle-barometer-a-nanode-project-by-richard-pope/) was a big inspiration.
 
 
 # Pictures
