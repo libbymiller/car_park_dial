@@ -38,11 +38,15 @@ then run it with a key from [https://portal-bristol.api.urbanthings.io/](https:/
 When you wire up the Arduino to the motor drivers, the middle two wires 
 need to be swapped, or it won't go backwards.
 
+# Running it on startup
+
+I used Supervisor (sudo apt-get supervisor) with the config ```car_park_dial_supervisor.conf``` 
+copied into ```/etc/supervisor/conf.d/```
+
 # Thanks
 
 I used physical pieces and code from 
 [Shonkbot](https://github.com/jarkman/shonkbot) and the wifi "appliance mode" from [Radiodan](http://radiodan.net). Richard Pope's [bicycle barometer](http://www.cyclelove.net/2012/12/bicycle-barometer-a-nanode-project-by-richard-pope/) was a big inspiration.
-
 
 # Pictures
 
