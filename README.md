@@ -12,8 +12,6 @@ The Bristol Open Data API is here
 It's designed to be an appliance, based on a Raspberry Pi, with an 
 Arduino and two stepper motors.
 
-Likely the callibration isn't right yet.
-
 # Installation
 
 ## Set up your pi including the wifi
@@ -32,7 +30,6 @@ then run it with a key from [https://portal-bristol.api.urbanthings.io/](https:/
 
      KEY="XXX" node send_data_to_serial.js 
 
-
 # Wiring
 
 When you wire up the Arduino to the motor drivers, the middle two wires 
@@ -40,8 +37,8 @@ need to be swapped, or it won't go backwards.
 
 # Running it on startup
 
-I used Supervisor (sudo apt-get supervisor) with the config ```car_park_dial_supervisor.conf``` 
-copied into ```/etc/supervisor/conf.d/```
+I used Supervisor (```sudo apt-get supervisor```) with the config ```car_park_dial_supervisor.conf``` 
+copied into ```/etc/supervisor/conf.d/```.
 
 # Thanks
 
