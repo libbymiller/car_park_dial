@@ -28,6 +28,11 @@ on a Pi 3.
      cd car_park_dial
      npm install sleep serialport
 
+then run it with a key from [https://portal-bristol.api.urbanthings.io/](https://portal-bristol.api.urbanthings.io/)
+
+     KEY="XXX" node send_data_to_serial.js 
+
+
 # Wiring
 
 When you wire up the Arduino to the motor drivers, the middle two wires 
